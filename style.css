@@ -34,22 +34,21 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15%;
+    border-color: red;
+    border-style: solid;
+}
+.top-lower-sign-up {
+    flex: 1;
 }
 .top-lower-sign-up h1 {
     overflow-wrap: break-word;
-    width: 250px
+    width: 30%;
 }
 .top-lower-sign-up p {
     overflow-wrap: break-word;
-    width: 400px;
+    width: 50%;
 }
 .placeholder-image {
-    align-items: center;
-    justify-content: center;
-}
-.placeholder-image p {
     background-color: gray;
-    height: 100px;
-    width: 350px;
+    flex: 1;
 }
