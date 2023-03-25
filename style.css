@@ -5,8 +5,6 @@ button {
     font-family: inherit;
     color: white;
     background-color: #3882F6;
-    width: 100px;
-    padding: 5px;
 }
 .top {
     background-color: #1F2937;
@@ -31,11 +29,12 @@ button {
     justify-content: center;
     gap: 16px;
 }
+
 .top-lower {
     display: flex;
     border-color: red;
     border-style: solid;
-    padding: 7% 25% 7% 25%;
+    padding: 7% 15% 7% 15%;
 }
 .top-lower-sign-up {
     border-color: red;
