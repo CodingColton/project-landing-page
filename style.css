@@ -6,6 +6,7 @@ button {
     color: white;
     background-color: #3882F6;
     width: 100px;
+    padding: 5px;
 }
 .top {
     background-color: #1F2937;
@@ -35,11 +36,11 @@ button {
     justify-content: center;
     border-color: red;
     border-style: solid;
+    padding: 7% 25% 7% 25%;
 }
 .top-lower-sign-up {
-    border-color: red;
-    border-style: solid;
-    flex: 0 1 500px;
+
+    flex: 1;
 }
 .top-lower-sign-up h1 {
     font-size: 48px;
@@ -50,9 +51,9 @@ button {
     color: #E5E7EB;
 }
 .placeholder-image {
-    border-color: red;
-    border-style: solid;
     background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    flex: 0 1 auto;
 }
