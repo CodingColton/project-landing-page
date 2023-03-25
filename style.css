@@ -32,23 +32,27 @@ button {
 }
 .top-lower {
     display: flex;
-    align-items: center;
     justify-content: center;
     border-color: red;
     border-style: solid;
 }
 .top-lower-sign-up {
-    flex: 1;
+    border-color: red;
+    border-style: solid;
+    flex: 0 1 500px;
 }
 .top-lower-sign-up h1 {
-    overflow-wrap: break-word;
-    width: 30%;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 .top-lower-sign-up p {
-    overflow-wrap: break-word;
-    width: 50%;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .placeholder-image {
+    border-color: red;
+    border-style: solid;
     background-color: gray;
-    flex: 1;
+    align-items: center;
+    flex: 0 1 auto;
 }
