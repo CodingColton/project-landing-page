@@ -1,7 +1,12 @@
 body {
     font-family: system-ui, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
+button {
+    font-family: system-ui, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: white;
+    background-color: #3882F6;
+    width: 100px;
+}
 .top {
     background-color: #1F2937;
     color: white;
@@ -15,10 +20,36 @@ body {
     align-items: center;
     justify-content: center;
 }
+.header-logo h3 {
+    font-size: 24px;
+}
 .header-links {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+.top-lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+.top-lower-sign-up h1 {
+    overflow-wrap: break-word;
+    width: 250px
+}
+.top-lower-sign-up p {
+    overflow-wrap: break-word;
+    width: 400px;
+}
+.placeholder-image {
+    align-items: center;
+    justify-content: center;
+}
+.placeholder-image p {
+    background-color: gray;
+    height: 100px;
+    width: 350px;
 }
