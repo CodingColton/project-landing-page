@@ -70,8 +70,33 @@ button {
     align-items: center;
 }
 
+.random-information { height: 400px; }
 .random-information h2 {
     font-size: 36px;
     color: #1F2937;
     text-align: center;
+}
+.illustrations img {
+    border-color: #3882F6;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.illustrations {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+}
+.illustrations-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+}
+.illustrations-subtext p {
+    text-align: justify;
+    text-align-last: center;
+    width: 150px;
+    margin: 0;
 }
