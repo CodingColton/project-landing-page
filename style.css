@@ -3,8 +3,11 @@ body {
 }
 button {
     font-family: inherit;
+    font-weight: bold;
     color: white;
     background-color: #3882F6;
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
 }
 .top {
     background-color: #1F2937;
@@ -32,13 +35,9 @@ button {
 
 .top-lower {
     display: flex;
-    border-color: red;
-    border-style: solid;
     padding: 7% 15% 7% 15%;
 }
 .top-lower-sign-up {
-    border-color: red;
-    border-style: solid;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -48,16 +47,12 @@ button {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    border-color: blue;
-    border-style: solid;
     flex: 1;
 }
 .hero-text p {
     margin: 0;
 }
 .hero-subtext {
-    border-color: red;
-    border-style: solid;
     flex: 1;
     color: #E5E7EB;
 }
@@ -65,8 +60,6 @@ button {
     margin: 0;
 }
 .hero-button {
-    border-color: red;
-    border-style: solid;
     flex: 1;
 }
 .placeholder-image {
@@ -75,4 +68,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.random-information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
 }
