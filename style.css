@@ -126,3 +126,28 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+.action-section {
+    height: 25%;
+    background-color: white;
+    padding: 5% 15% 5% 15%;
+}
+.call-to-action {
+    border-radius: 10px;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 15% 1% 15%;
+    color: #F9FAF8;
+}
+.call-to-action .action-text-section {
+    flex: 2;
+}
+.call-to-action .action-text {
+    font-weight: bold;
+}
+.call-to-action button {
+    border-color: white;
+}
