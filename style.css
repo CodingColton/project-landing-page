@@ -47,14 +47,21 @@ button {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    border-color: red;
+    border-color: blue;
     border-style: solid;
+    flex: 1;
+}
+.hero-text p {
+    margin: 0;
 }
 .hero-subtext {
     border-color: red;
     border-style: solid;
-    font-size: 18px;
+    flex: 1;
     color: #E5E7EB;
+}
+.hero-subtext p {
+    margin: 0;
 }
 .hero-button {
     border-color: red;
